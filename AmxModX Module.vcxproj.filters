@@ -28,7 +28,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AmxModuleSDK\Plugin.cpp">
+    <ClCompile Include="Source\Plugin.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\metamod-p\hlsdk\cl_dll\hud_iface.ixx">
@@ -208,7 +208,7 @@
     <ClCompile Include="..\metamod-p\hlsdk\pm_shared\pm_shared.ixx">
       <Filter>HLSDK\pm_shared</Filter>
     </ClCompile>
-    <ClCompile Include="AmxModuleSDK\Plugin.ixx">
+    <ClCompile Include="Source\Plugin.ixx">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\metamod-p\metamod\dllapi.ixx">

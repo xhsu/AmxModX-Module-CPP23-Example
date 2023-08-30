@@ -67,7 +67,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ModuleDefinitionFile>export.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>$(ProjectDir)export.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -89,7 +89,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ModuleDefinitionFile>export.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>$(ProjectDir)export.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -157,8 +157,8 @@
     <ClCompile Include="..\metamod-p\metamod\meta_api.ixx" />
     <ClCompile Include="..\metamod-p\metamod\mutil.ixx" />
     <ClCompile Include="..\metamod-p\metamod\plinfo.ixx" />
-    <ClCompile Include="AmxModuleSDK\Plugin.cpp" />
-    <ClCompile Include="AmxModuleSDK\Plugin.ixx" />
+    <ClCompile Include="Source\Plugin.cpp" />
+    <ClCompile Include="Source\Plugin.ixx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="export.def" />
